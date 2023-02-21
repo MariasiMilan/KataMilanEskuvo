@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.gold {
+    color: darkgoldenrod !important;
+}
+
+h2 {
+    font-size: 50px !important;
+}
+
+.timerContainer {
+    position: relative;
+}
+.day {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.time {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.playFair {
+    font-family: 'Playfair Display', serif;
+}
